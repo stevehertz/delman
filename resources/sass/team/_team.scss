@@ -1,0 +1,52 @@
+.team-item {
+    width   : 100%;
+    height  : 100%;
+    position: relative;
+
+    .team-icon {
+        position: absolute;
+        top     : 0;
+        right   : 0;
+
+        .share-link {
+            opacity   : 0;
+            transition: 0.9s;
+        }
+    }
+
+    &:hover {
+        .share-link {
+            opacity: 1;
+        }
+    }
+
+    .team-content {
+        transition: 0.9s;
+    }
+
+    &:hover {
+        .team-content {
+            background   : var(--bs-primary) !important;
+            // color     : var(--bs-white) !important;
+            color        : #f58220 !important;
+        }
+
+        .team-content{
+            h4 {
+                color: var(--bs-white) !important;
+            }
+        } 
+
+        .team-content{
+            p {
+                color: var(--bs-white);
+            }
+        } 
+    }
+}
+
+
+.team-item .team-item .team-content h4,
+.team-item .team-content p {
+    transition: 0.5s;
+}

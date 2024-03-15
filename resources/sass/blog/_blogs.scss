@@ -1,0 +1,36 @@
+.blog-item {
+    position: relative;
+
+    img {
+        transition: 0.5s;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.3)
+        }
+    }
+
+    .blog-content {
+        position  : relative;
+        transform : translateY(-50%);
+        box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+
+        a.btn h5 {
+            transition: 0.5s;
+        }
+
+    }
+
+    &:hover{
+        .blog-content{
+            a{
+                &.btn{
+                    h5 {
+                        color: var(--bs-primary) !important;
+                    }
+                } 
+            }
+        } 
+    } 
+}

@@ -12,16 +12,16 @@
                     </div>
                     <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.5s">
                         <div class="faqt-item bg-primary rounded p-4 text-center">
-                            <i class="fas fa-users-cog fa-4x mb-4 text-white"></i>
-                            <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">107</h1>
-                            <p class="text-white text-uppercase fw-bold mb-0">Expert Chefs</p>
+                            <i class="fas fa-biking fa-4x mb-4 text-white"></i>
+                            <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">50</h1>
+                            <p class="text-white text-uppercase fw-bold mb-0">Dedicated Riders</p>
                         </div>
                     </div>
                     <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
                         <div class="faqt-item bg-primary rounded p-4 text-center">
                             <i class="fas fa-check fa-4x mb-4 text-white"></i>
                             <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">253</h1>
-                            <p class="text-white text-uppercase fw-bold mb-0">Events Complete</p>
+                            <p class="text-white text-uppercase fw-bold mb-0">Transfers Complete</p>
                         </div>
                     </div>
                 </div>
