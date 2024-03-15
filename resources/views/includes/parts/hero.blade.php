@@ -7,8 +7,8 @@
                     Welcome to {{ config('app.name') }}
                 </small>
                 <h1 class="display-1 mb-4 animated bounceInDown">
-                    We <span class="text-primary">Delman</span>Solutions
-                    Move You With Dignity
+                    We <span class="text-primary">Move You</span>
+                    With Dignity
                 </h1>
                 <a href=""
                     class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">

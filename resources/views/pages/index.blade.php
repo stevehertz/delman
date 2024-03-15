@@ -7,12 +7,10 @@
     <!-- Hero Start -->
     @include('includes.parts.hero')
     <!-- Hero End -->
-
-
+    
     <!-- About Satrt -->
     @include('includes.parts.about')
     <!-- About End -->
-
 
     <!-- Fact Start-->
     @include('includes.parts.facts')
@@ -28,7 +26,7 @@
 
 
     <!-- Events Start -->
-    @include('includes.parts.events')
+    {{-- @include('includes.parts.events') --}}
     <!-- Events End -->
 
 
