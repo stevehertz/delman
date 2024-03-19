@@ -1,27 +1,40 @@
 .nav-bar {
     background   : var(--bs-light);
     border-bottom: 1px solid rgba(0, 0, 0, .05);
+    z-index      : 300;
+    position: sticky;
+    transition: 0.5s ease-in-out;
+
+    .navbar-nav {
+        .nav-link {
+            padding    : 10px 12px;
+            font-weight: 600;
+            font-size  : 17px;
+            transition : .5s;
+        }
+    }
+
+    .dropdown-toggle {
+        &::after {
+            border        : none;
+            content       : "\f107";
+            font-family   : "Font Awesome 5 Free";
+            font-weight   : 700;
+            vertical-align: middle;
+            margin-left   : 8px;
+        }
+    }
+
+    &.scrolled
+    {
+        background-color: var(--bs-white);
+        position: fixed;
+    }
 }
 
-.navbar .navbar-nav .nav-link {
-    padding    : 10px 12px;
-    font-weight: 600;
-    font-size  : 17px;
-    transition : .5s;
-}
-
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: var(--bs-primary);
-}
-
-.navbar .dropdown-toggle::after {
-    border        : none;
-    content       : "\f107";
-    font-family   : "Font Awesome 5 Free";
-    font-weight   : 700;
-    vertical-align: middle;
-    margin-left   : 8px;
 }
 
 /* .navbar .navbar-brand img{
@@ -31,30 +44,41 @@
 } */
 
 @media (min-width: 1200px) {
-    .navbar .nav-item .dropdown-menu {
-        display         : block;
-        visibility      : hidden;
-        top             : 100%;
-        transform       : rotateX(-75deg);
-        transform-origin: 0% 0%;
-        transition      : .5s;
-        opacity         : 0;
-    }
-
-    .navbar .nav-item:hover .dropdown-menu {
-        transform : rotateX(0deg);
-        visibility: visible;
-        opacity   : 1;
+    .navbar{
+        .nav-item{
+            .dropdown-menu {
+                display         : block;
+                visibility      : hidden;
+                top             : 100%;
+                transform       : rotateX(-75deg);
+                transform-origin: 0% 0%;
+                transition      : .5s;
+                opacity         : 0;
+            }
+            &:hover{
+                .dropdown-menu {
+                    transform : rotateX(0deg);
+                    visibility: visible;
+                    opacity   : 1;
+                }
+            } 
+        } 
     }
 }
 
-.dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
-    color     : var(--bs-white);
+.dropdown{
+    .dropdown-menu{
+        a{
+            &:hover {
+                background: var(--bs-primary);
+                color     : var(--bs-white);
+            }
+        }
+    } 
 }
 
-#searchModal{
+#searchModal {
     .modal-content {
         background-color: rgba(255, 255, 255, .95);
     }
-} 
+}

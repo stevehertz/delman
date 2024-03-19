@@ -9,3 +9,16 @@
 
 <!-- Template Javascript -->
 <script src="{{ asset('js/main.js') }}"></script>
+
+<script>
+    document.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.nav-bar');
+        console.log(navbar);
+        if(window.scrollY > 0)
+        {
+            navbar.classList.add('scrolled');
+        }else{
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>

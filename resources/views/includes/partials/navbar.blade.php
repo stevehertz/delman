@@ -3,7 +3,7 @@
         <nav class="navbar navbar-light navbar-expand-lg py-4">
             <a href="{{ route('home') }}" class="navbar-brand">
                 <span class="text-primary fw-bold mb-0">
-                    <img src="{{ asset('img/logo/logo.png') }}" alt="{{ config('app.name') }}" width="120">
+                    <img src="{{ asset('img/logo/main-logo.png') }}" alt="{{ config('app.name') }}" width="120">
                 </span>
             </a>
             <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
