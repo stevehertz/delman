@@ -41,7 +41,7 @@
 
 
     <!-- Team Start -->
-    @include('includes.parts.team')
+    {{-- @include('includes.parts.team') --}}
     <!-- Team End -->
 
 

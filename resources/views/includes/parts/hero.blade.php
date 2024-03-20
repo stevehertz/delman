@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="col-lg-5 col-md-12">
-                <img src="{{ asset('img/hero.png') }}" class="img-fluid rounded animated zoomIn" alt="">
+                <img src="{{ asset('img/content/hero.png') }}" class="img-fluid rounded animated zoomIn" alt="">
             </div>
         </div>
     </div>

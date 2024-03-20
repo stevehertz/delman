@@ -29,7 +29,7 @@
     @include('includes.modals.video')
     <!-- Fact End -->
 
-    @include('includes.parts.team')
+    {{-- @include('includes.parts.team') --}}
 
 
 
