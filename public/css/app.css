@@ -11,6 +11,11 @@
   opacity: 1;
 }
 
+.owl-item {
+  display: inline-block !important;
+  z-index: 1000 !important;
+}
+
 /*** Spinner End ***/
 .back-to-top {
   position: fixed;
@@ -52,6 +57,13 @@ h6,
 .wow,
 .animated {
   animation-duration: 2s !important;
+}
+
+/*** Slider ***/
+.owl-carousel .item img {
+  display: block !important;
+  width: 100%;
+  height: auto;
 }
 
 /*** Button Start ***/

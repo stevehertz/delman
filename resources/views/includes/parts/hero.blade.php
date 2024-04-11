@@ -7,19 +7,30 @@
                     Welcome to {{ config('app.name') }}
                 </small>
                 <h1 class="display-1 mb-4 animated bounceInDown">
-                    We <span class="text-primary">Move You</span>
+                    We <span class="text-primary">Deliver</span>
                     With Dignity
                 </h1>
                 <a href=""
                     class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">
                     Download Our App
                 </a>
-                <a href="{{ route('about') }}" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">
+                <a href="{{ route('about') }}"
+                    class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft">
                     Know More
                 </a>
             </div>
-            <div class="col-lg-5 col-md-12">
-                <img src="{{ asset('img/content/hero.png') }}" class="img-fluid rounded animated zoomIn" alt="">
+            <div class="col-lg-5 col-md-12 slider-container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="{{ asset('img/content/hero/hero-1.png') }}" class="img-fluid rounded animated zoomIn">
+                    </div>
+                    <div class="item">
+                        <img src="{{ asset('img/content/hero/hero-2.png') }}" class="img-fluid rounded animated zoomIn">
+                    </div>
+                    <div class="item">
+                        <img src="{{ asset('img/content/hero/hero-3.png') }}" class="img-fluid rounded animated zoomIn">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

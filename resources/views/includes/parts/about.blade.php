@@ -1,4 +1,4 @@
-<div class="container-fluid py-6">
+<div class="container-fluid py-2">
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">

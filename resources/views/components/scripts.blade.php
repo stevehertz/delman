@@ -14,11 +14,34 @@
     document.addEventListener('scroll', () => {
         const navbar = document.querySelector('.nav-bar');
         console.log(navbar);
-        if(window.scrollY > 0)
-        {
+        if (window.scrollY > 0) {
             navbar.classList.add('scrolled');
-        }else{
+        } else {
             navbar.classList.remove('scrolled');
         }
+    });
+
+    $(document).ready(function() {
+        let autoplayTimeout = 1000;
+        let loops = 2;
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay:true,
+            dots: true,
+            margin: 10,
+            nav: false,
+            items: 1,
+            autoplayTimeout: autoplayTimeout,
+            smartSpeed: 800,
+            mouseDrag: true,
+            margin: 10,
+            navigation: true,
+            slideBy: 1,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        });
     });
 </script>
