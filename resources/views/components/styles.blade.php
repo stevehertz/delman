@@ -17,4 +17,4 @@
 <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
 
 <!-- Template Stylesheet -->
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">    
+<link href="{{ asset('css/frontend.css') }}" rel="stylesheet">    

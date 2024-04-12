@@ -1,81 +1,8 @@
-/*** Spinner Start ***/
-@import 'default/styles.scss';
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
 
-/*** Slider ***/
-.owl-carousel {
-    .item {
-        img {
-            display: block !important;
-            width  : 100%;
-            height : auto;
-        }
-    }
-}
+// Variables
+@import 'variables';
 
-/*** Button Start ***/
-@import 'buttons/styles_btn';
-
-/*** Button End ***/
-
-/*** Navbar Start ***/
-@import 'navbar/styles_navbar';
-
-/*** Navbar End ***/
-
-/*** Events Start ***/
-@import 'events/styles_events';
-/*** Events End ***/
-
-/*** service start ***/
-@import 'services/styles_services';
-/*** Services End ***/
-
-/*** Menu Start ***/
-@import 'menu/styles_menu';
-/*** Menu End ***/
-
-/*** Youtube Video start ***/
-@import 'video/styles_video';
-/*** Youtube Video End ***/
-
-/*** Blog Start ***/
-@import 'blog/blogs';
-/*** Blog End ***/
-
-/*** Team Start ***/
-@import 'team/team';
-
-/*** Team End ***/
-
-/*** testimonial Start ***/
-.testimonial-item {
-    border : 1px solid var(--bs-primary);
-    padding: 20px 20px;
-}
-
-.testimonial-carousel .owl-item img {
-    width : 100px;
-    height: 100px;
-}
-
-.testimonial-carousel.owl-rtl .testimonial-item {
-    direction: ltr !important;
-}
-
-/*** testimonial End ***/
-
-
-/*** Contact start ***/
-.contact-form {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-}
-
-/*** Contact End ***/
-
-
-/*** Footer Start ***/
-.footer .footer-item a.text-body:hover {
-    color: var(--bs-secondary) !important;
-}
-
-/*** Footer End ***/
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
